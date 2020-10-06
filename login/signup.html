@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sign Up | Homestars</title>
+    <link rel="shortcut icon" href="smallLogo.png" type="image/x-icon">
+    <link rel="stylesheet" href="signup.css">
+
+
+
+
+
+
+</head>
+<body>
+    <div>
+        <ul>
+            <li><a href="../index.html"> <img id="img" src="logo.png"></a></li>
+            
+          </ul>
+          </div>
+          <hr>
+       <div id="page">
+           <br>
+           <br>
+           <br>
+           <form id="myform" name="myform" method="post" action="" onsubmit="return validateform()">
+               <h1 id="heading" > Sign Up</h1>
+               <div class="center">
+                <p class="input-text"><b>Display Name</b></p>
+                <input type="text" name="name" id="name" placeholder="name">
+               <p class="input-text" ><b>Email Address</b></p>
+               <input type="text" name="email" id="email" placeholder="k173914@nu.edu.pk">
+               <p class="input-text" ><b>Create Password</b></p>
+               <input type="password" name="password" id="password" placeholder="must be atleast 4 characters">
+               <input type="submit" name="" id="login" value="Join Homestars">
+            
+           </div>
+           </form>
+       
+        </div>
+        <script>
+            function validateform()
+            {  
+                var name=document.myform.name.value
+                var email=document.myform.email.value;  
+                var password=document.myform.password.value;  
+      
+                if(name==null || name=="")
+                {
+                    alert("Name can't be blanl");
+                    return false;
+
+                }
+                else if (email==null || email=="")
+                {  
+                    alert("Email can't be blank");  
+                    return false;  
+                }       
+                else if(password.length<6)
+                {  
+                    alert("Password must be at least 6 characters long.");  
+                    return false;  
+                }  
+        }    
+
+
+
+
+
+
+    </script>
+        </body>
+        </html>

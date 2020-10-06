@@ -1,0 +1,134 @@
+   
+body
+{
+    font-family: "fira-sans", "San Francisco", "Segoe UI", sans-serif;
+    margin: 0;
+}
+
+#pro
+{
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('measure.jpg');
+  width: 100%;
+  height: 700px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: -8px;
+  margin-top: -110px;
+ 
+}
+#logo
+{
+    width: 120px;
+    height: 70px;
+    position: relative;
+    top: 130px;
+    left: 50px;
+
+}
+#text
+{
+    font-size: 3.0rem;
+    font-weight: bold;
+    color: white;
+    width: 800px;
+    position: relative;
+    top: 179px;
+    left: 170px;
+}
+#text2
+{
+    color: white;
+    width: 800px;
+    position: relative;
+    top: 179px;
+    left: 170px;
+    font-size: 1.3rem;
+}
+.contact-form
+{
+   position: absolute;
+   left: 1098px;
+   top: 94px;
+   border: 1px solid grey;
+   border-top-right-radius: 2px ;
+   border-bottom-right-radius: 2px;
+   width: 361px;
+   background-color: white;
+
+}
+.contact-form input[type=text],.contact-form select
+{
+    border: 1px solid grey;
+    background-color: white;
+    height: 30px;
+    padding: 5px;
+    margin: 5px;
+    margin-left: 25px;
+    margin-bottom: 10px;
+   
+}
+.button
+{
+    background-color: #FFD942;
+  border: none;
+  color: black;
+  padding: 20px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 8px;
+  width: 300px;
+  font-weight: bold;
+  margin-left: 25px;
+  margin-bottom: 25px;
+
+}
+.form-heading
+{
+    text-align: left;
+    margin-left: 25px;
+
+}
+.full-width
+{
+    width: 300px;
+}
+.half-width
+{
+    width: 130px;
+}
+
+.input-text
+{
+    text-align: left;
+    margin-left: 25px;
+    margin-bottom: -4px;
+    font-size: 0.7rem;
+}
+#remaining-content
+{
+    margin-top: 50px;
+}
+h2
+{
+    text-align: center;
+}
+.col-4
+{
+    width: 33%;
+    display: inline-block;
+}
+.image
+{
+    position: relative;
+    top: 25px;
+    left: 186px;
+}
+h3
+{
+    text-align: center;
+    margin-bottom: 50px;
+}

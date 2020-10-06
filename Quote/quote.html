@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Get Quotes | Homestars</title>
+    <link rel="shortcut icon" href="smallLogo.png" type="image/x-icon">
+    <link rel="stylesheet" href="quote.css">
+
+
+
+
+
+
+</head>
+<body>
+    <div>
+        <ul>
+            <li><a href="../index.html"> <img id="img" src="logo.png"></a></li>
+            
+          </ul>
+      
+          </div>
+          <div id="progress-bar">
+              <div id="line1">.</div>
+              <div id="line2">.</div>
+
+          </div>
+          
+       <div id="page">
+           <br>
+           <br>
+           <br>
+           <div id="content1">
+           <h1>Give us a few details and we'll connect you with the best local pros</h1>
+           <img class="in-image" src="map.PNG" alt="">
+           <p>1.Enter postal code.</p>
+           <img class="in-image" src="pencil.PNG" alt="">
+           <p>2.Describe issue</p>
+           <img class="in-image" src="man.PNG" alt="">
+           <p>3.Get matched to pros.</p>
+
+           </div>
+           <div id="div-1">
+               <form id="form-1" action="">
+                   <h2>Where are you located?</h2>
+                   <img src="pin.PNG" alt="">
+                   <br>
+                   <input type="text" name="" id="zip" value="zip code">
+                   <br>
+                </form>
+                <input id="button-1" type="submit" class="button" value="NEXT">
+            </div>
+            <div id="div-2">
+                <form id="form-2" action="">
+                    <h2>What do you need done?</h2>
+                    
+                    <input type="text" name="" id="search-task" value="Search for a task">
+                    <div class="text-left">
+                    <p>Alaram Systems</p>
+                    <input type="radio" value="Alarm or Security System Monitoring">
+                    <label for="">Alarm or Security System Monitoring</label>
+                    <br>
+                    <input type="radio" value="Fire Prevention and Protection">
+                    <label for="">Fire Prevention and Protection</label>
+                    <br>
+                    <input type="radio" value="Install Alarm or Security System">
+                    <label for="">Install Alarm or Security System</label>
+                    <br>
+                    <input type="radio" value="Install Security Safe">
+                    <label for="">Install Security Safe</label>
+                    <br>
+                    <input type="radio" value="Install Security or Storm Shutters">
+                    <label for="">Install Security or Storm Shutters</label>
+                    </form>
+                    </form>
+                    </div>
+                    <input id="button-2" type="submit" class="button" value="NEXT">
+                    </div>
+                    <div id="div-3">
+                        <form id="form-2" action="">
+                            <h2>How did you acquire your existing security system?</h2>
+                            <div class="text-left">
+                            <input type="radio" value="Bought it and had it installed">
+                            <label for="">Bought it and had it installed</label>
+                            <br>
+                            <input type="radio" value="Bought it and installed it myself">
+                            <label for="">Bought it and installed it myself</label>
+                            <br>
+                            <input type="radio" value="Bought it and need to get it installed">
+                            <label for="">Bought it and need to get it installed</label>
+                            <br>
+                            <input type="radio" value="It was in the house when I moved in">
+                            <label for="">It was in the house when I moved in</label>
+                            <br>
+                            <input type="radio" value="It is leased">
+                            <label for="">It is leased</label>
+                            </form>
+                            </form>
+                            </div>
+                            <input id="button-3" type="submit" class="button" value="NEXT">
+                            </div>
+                            <div id="div-4">
+                                <form id="form-2" action="">
+                                    <h2>Choose the appropriate status for this project:</h2>
+                                    <select id="" name="">
+                                        <option value="">Choose one</option>
+                                        <option value="">Ready to Hire</option>
+                                        <option value="">Planning & Budgeting</option>
+                                      </select>
+                                    
+                                    </form>
+                                    
+                                    <input id="button-4" type="submit" class="button" value="NEXT">
+                                    </div>
+            
+        </div>
+
+
+
+        <script>
+            document.getElementById("button-1").addEventListener("click",function()
+            {
+            document.querySelector("#div-2").style.display="block";
+            document.querySelector("#line2").style.width="304px";
+            window.scrollTo(0, 800);
+            })
+            document.getElementById("button-2").addEventListener("click",function()
+            {
+            document.querySelector("#div-3").style.display="block";
+            document.querySelector("#line2").style.width="456px";
+            window.scrollTo(0, 1600);
+            })
+            document.getElementById("button-3").addEventListener("click",function()
+            {
+            document.querySelector("#div-4").style.display="block";
+            document.querySelector("#line2").style.width="608px";
+            window.scrollTo(0, 2200);
+            })
+        </script>
+</body>
+</html>

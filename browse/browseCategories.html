@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+    <title>Find Trusted Home Professionals | Homestars</title>
+    <link rel="shortcut icon" href="smallLogo.png" type="image/x-icon">
+    <link rel="stylesheet" href="browseCategories.css">
+</head>
+<body>
+    <div>
+    <ul>
+        <li><a href="../index.html"> <img id="img" src="logo.png"></a></li>
+        <li><a class="link" href="browseCategories.html">Browse Categories</a></li>
+        <li><a class="link" href="../blog/blog.html">Blog</a></li>
+        <li><a class="link" href="../review/review.html">Write A Review</a></li>
+        <li><a class="link right" href="#" class="button" id="button">Login</a></li>
+        <li><a class="link right" href="#" class="button" id="button1">Sign Up</a></li>
+        <li><a class="link right" id="home-pro" href="../join/join.html"><b> Are You a Home Pro?</b></a></p></li>
+      </ul>
+      </div>
+      <hr>
+   <div id="page">
+       <br>
+       <br>
+       <br>
+       <h1 style="margin-top:100px; text-align: center;">Service Providers in North York, Ontario</h1>
+    <p style="margin-top:50px; text-align: center;">Looking for a trusted company in North York for your next home improvement project? Choose from thousands of verified and reviewed home service pros that are eager to help.</p>
+    <div id="in-center-div">
+        <div class="content">
+
+        <p>Additions, Construction & Renovations</p>
+        <p class="heading">Basement Renovation </p>
+        <p class="heading">Bathroom Renovation</p>
+        <p class="heading">Condomium Renovation</p>
+        </div>
+        <div class="content">
+
+            <p>Additions, Construction & Renovations</p>
+            <p class="heading">Basement Renovation </p>
+            <p class="heading">Bathroom Renovation</p>
+            <p class="heading">Condomium Renovation</p>
+        </div>
+        <div class="content">
+
+            <p>Additions, Construction & Renovations</p>
+            <p class="heading">Basement Renovation </p>
+            <p class="heading">Bathroom Renovation</p>
+            <p class="heading">Condomium Renovation</p>
+        </div>
+        <div class="content">
+
+            <p>Additions, Construction & Renovations</p>
+            <p class="heading">Basement Renovation </p>
+            <p class="heading">Bathroom Renovation</p>
+            <p class="heading">Condomium Renovation</p>
+        </div>
+
+
+
+    </div>
+
+
+
+
+
+   </div>
+
+
+
+
+
+   <div class="popup">
+       <div class="popup-content">
+        <form class="popup-form" name="myform" method="post" action="abc.jsp" onsubmit="return validateform()" > 
+           <img src="cross1.PNG" class="close">
+           <h1>Login to your account</h1>
+           <p class="description-text"><b>Email</b></p>
+           <input type="text" name="name" placeholder="umairahmeds@hotmail.com">
+           <p class="description-text"><b>Password</b></p>
+           <input type="password" name="password" placeholder="Password">
+           <a href="#" class="button"> <input type="submit" value="Login"> </a>
+           <a href="../forgot/forgot.html">Forgot Password?</a>
+           <p>Don't have an account?<a href="../login/signup.html">Sign Up</a></p>
+           </form>
+        </div>
+    </div>
+   <div class="popup2">
+    <div class="popup-content">
+     <form class="popup-form" name="myform1" method="post" action="abc.jsp" onsubmit="return validateform2()" > 
+        <img src="cross1.PNG" class="close2">
+        <h1>Sign Up for an account</h1>
+        <p class="description-text"><b>Display Name</b></p>
+        <input type="text" name="name" placeholder="Display Name">
+        <p class="description-text"><b>Email</b></p>
+        <input type="text" name="email" placeholder="umairahmeds@hotmail.com">
+        <p class="description-text"><b>Create Password</b></p>
+        <input type="password" name="password" placeholder="******">
+        <a href="#" class="button"> <input type="submit" value="Sign Up"> </a>
+        </form>
+    </div>
+</div>   
+
+
+
+
+<script>
+document.getElementById("button").addEventListener("click",function(){
+    document.querySelector(".popup").style.display="flex";
+
+})
+
+document.querySelector(".close").addEventListener("click",function(){
+    document.querySelector(".popup").style.display="none";
+})
+document.getElementById("button1").addEventListener("click",function(){
+    document.querySelector(".popup2").style.display="flex";
+})
+document.querySelector(".close2").addEventListener("click",function(){
+    document.querySelector(".popup2").style.display="none";
+})
+
+
+
+
+
+
+
+function validateform(){  
+var name=document.myform.name.value;  
+var password=document.myform.password.value;  
+  
+if (name==null || name==""){  
+  alert("Name can't be blank");  
+  return false;  
+}else if(password.length<6){  
+  alert("Password must be at least 6 characters long.");  
+  return false;  
+  }  
+} 
+function validateform2()
+{  
+var name=document.myform2.name.value;  
+var email=document.myform2.email.value;
+var password=document.myform2.password.value;  
+  
+if (name==null || name==""){  
+  alert("Name can't be blank");  
+  return false;  
+}
+else if(email<8)
+{  
+  alert("Password must be at least 6 characters long.");  
+  return false;  
+  }  
+
+else if(password.length<6)
+{  
+  alert("Password must be at least 6 characters long.");  
+  return false;  
+  }  
+}
+
+
+
+
+</script>
+
+
+
+<div id="footer">
+    <div id="in-footer">
+        <img id="envelop" src="envelop.PNG">
+        <h2 id="envelop-text">Get Exclusive Tips & Advice</h2>
+        <a href="../newsLetter/newsLetterSignUp.html"><input type="text" name="" id="newsletter" value="Sign Up"></a>
+        <h2 id="help-text">Need help?<a id="contact" href="../contact/contact.html"> Contact Us</a></h2>
+        <hr>
+        <div class="col-2">
+            <h3>Homeowners</h3>
+            <p><a class="is-link" href="">Browse Categories</a></p>
+            <p><a class="is-link" href="">Browse Tasks</a></p>
+            <p><a class="is-link" href="">Write A Review</a></p>
+            <p><a class="is-link" href="">Blog</a></p>
+            <p><a class="is-link" href="">Star Reviewers</a></p>
+            <p><a class="is-link" href="">Homeowner FAQ</a></p>
+            <p><a class="is-link" href="">Review Guidelines</a></p>
+            <p><a class="is-link" href="">Homeowner Trust</a></p>
+            <p><a class="is-link" href="">Cost Guides</a></p>
+            <p><a class="is-link" href="">Reno Report</a></p>
+        </div>
+        <div class="col-2">
+            <h3>Home Professionals</h3>
+            <p><a class="is-link" href="">Join Homestars</a></p>
+            <p><a class="is-link" href="">Brand Builder</a></p>
+            <p><a class="is-link" href="">Home Professional FAQ</a></p>
+            <p><a class="is-link" href="">Building Trust</a></p>
+            <p><a class="is-link" href="">Mobile App</a></p>
+            <p><a class="is-link" href="">Home Professional Terms</a></p>
+            <p><a class="is-link" href="">Pro Centre</a></p>
+        </div>
+        <div class="col-2">
+            <h3>HomeStars</h3>
+            <p><a class="is-link" href="">About</a></p>
+            <p><a class="is-link" href="">Our Team</a></p>
+            <p><a class="is-link" href="">Press & Announcements</a></p>
+            <p><a class="is-link" href="">Careers at Homestars</a></p>
+            <p><a class="is-link" href="">Contact Us</a></p>
+            <p><a class="is-link" href="">Terms of Use</a></p>
+            <p><a class="is-link" href="">Cities</a></p>
+            <p><a class="is-link" href="">Privacy</a></p>
+        </div>
+        <div class="col-2">
+            <img class="social" src="Social.PNG">
+        </div>
+    </div>
+</div>
+</body>
+</html>

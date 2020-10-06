@@ -1,0 +1,282 @@
+    
+body
+{
+    font-family: "fira-sans", "San Francisco", "Segoe UI", sans-serif;
+    margin: 0;
+}
+
+#pro
+{
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('furniture.jpg');
+  width: 100%;
+  height: 470px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: -8px;
+  margin-top: -110px;
+ 
+}
+#navbar
+{
+    margin-top: 110px !important ;
+    
+    color: white;
+
+}
+#navbar a
+{
+    text-decoration: none;
+    color: white;
+}
+.navElements
+{
+    float: left;
+    margin-right: 20px;
+    margin-left: 20px;
+
+    
+}
+.nav2
+{
+    float: right;
+    margin-right: 150px;
+    margin-left: -130px;
+}
+#logo
+{
+    width: 90px;
+    height: 50px;
+}   
+#bigText
+{
+    clear: both;
+    float: none;
+    width: 30%;
+    margin-left:550px !important ;
+}
+#bigText input[type=text] 
+{
+  width: 466px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+  background-position: 10px 10px; 
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+}
+input[type=text]:focus 
+{
+  width: 50%;
+}
+#categories
+{
+    width: 60%;
+    position:relative;
+    left: 20%;
+}
+.img
+{
+    width: 75px;
+    height: 60px;
+   
+}
+.img-with-text
+ {
+    text-align: justify;
+    width: 150px;
+    
+}
+
+.img-with-text img 
+{
+    display: block;
+    margin: 0 auto;
+    margin-left: 30px;
+    margin-right: 25px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.textCenter
+{
+    text-align: center;
+}
+#halfPage
+{
+
+height: 43%;
+width: 43%;
+float: left;
+margin-top: 90px;
+margin-bottom: 150px;
+}
+#halfPage2
+{
+
+height: 43%;
+width: 43%;
+float: right;
+margin-top: 90px;
+}
+#otherHalf
+{
+    text-align: left;
+    width: 40%;
+    margin-top:220px;
+    margin-left: 850px;
+    margin-bottom: 100px;
+}
+#otherHalf2
+{
+    text-align: left !important;
+    width: 40%;
+    margin-top:220px;
+    margin-right: 800px;
+    margin-left: 50px;
+}
+.icon
+{
+    float:left;
+    height: 50px;
+    width: 55px;
+    margin-left: -15px !important;
+}
+#footer
+{
+    clear: both;
+    background-color: #232F3A;
+    width: 100%;
+    height: 600px;
+    color: white;
+}
+#in-footer
+{
+    width: 85%;
+    margin-left: 100px;
+    margin-right: 100px;
+    
+}
+#envelop
+{
+    width: 51px;
+    height: 48px;
+    margin-top: 40px;
+    float: left;
+}
+#envelop-text
+{
+    padding: 25px;
+    display: inline-block;
+    margin-left: -25px;
+
+}
+#help-text
+{
+    padding: 25px;
+    float: right;
+    text-overflow: ellipsis;
+
+
+}
+.social
+{
+    margin-bottom: 100px;
+}
+.is-link
+{
+    color: white;
+    text-decoration-line: none;
+}
+.is-link:hover
+{
+    text-decoration-line: underline;
+    color: #626667 !important;
+
+}
+#contact
+{
+    text-decoration-line: none;
+    color:#27A9E1 ;
+}
+#contact:hover
+{
+    text-decoration-line: underline;
+    color: #1D79A1;
+}
+.col-2
+{
+    width: 24%;
+    display: inline-block;
+    vertical-align: top;
+
+}
+#home-pro
+{
+    color: black !important;
+    background-color: #F8CA45;
+    height: 33px;
+    width: 170px;
+    padding: 8px;
+    border-radius: 5px;
+}
+#newsletter
+{
+    background-color: #2FBB86;
+    font-weight: bolder;
+    width: 58px;
+    height: 32px;
+    color: white;
+    border-radius: 3px;
+    padding-left: 9px;
+    margin-left: -22px;
+    cursor: pointer;
+}
+#icon
+{
+    position: fixed;
+    top: 87%;
+    left: 95%;
+    cursor: pointer;
+}
+#cross
+{
+    cursor: pointer;
+    position: relative;
+    top: 16px;
+    left: 60px;
+    width: 40px;
+    height: 40px;
+}
+#chat-assistant
+{
+    background-color: white;
+    border-radius: 10px;
+    width: 357px;
+    height:534px;
+    position: fixed;
+    top: 24%;
+    left: 75%;
+    display: none;
+    box-shadow: 5px 5px 5px 5px #888888;
+}
+#upper-part
+{
+    background-color: #27A9E1 ;
+    height: 15px;
+    padding: 20px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    color: white;
+
+
+}
+#upper-part p
+{
+    position: relative;
+    top: -45px;
+    left: 79px;
+}

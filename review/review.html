@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Write a review | Homestars</title>
+    <link rel="shortcut icon" href="smallLogo.png" type="image/x-icon">
+    <link rel="stylesheet" href="review.css">
+
+
+
+</head>
+<body>
+    <div>
+        <ul>
+            <li><a href="../index.html"> <img id="img" src="logo.png"></a></li>
+            <li><a class="link" href="../browse/browseCategories.html">Browse Categories</a></li>
+            <li><a class="link" href="../blog/blog.html">Blog</a></li>
+            <li><a class="link" href="review.html">Write A Review</a></li>
+            <li><a class="link right" href="#" class="button" id="button">Login</a></li>
+            <li><a class="link right" href="#" class="button" id="button1">Sign Up</a></li>
+            
+          </ul>
+          </div>
+          <hr>
+       <div id="page">
+           <br>
+           <br>
+           <br>
+           <div id="content1">
+           <h1>Search for a Company to Review</h1>
+           <input type="text" id="text" placeholder="Company Name">
+           <br>
+           <input type="Button" id="send" name="Send" value="Search">
+           </div>
+        </div>
+
+
+        <div id="footer">
+            <div id="in-footer">
+                <img id="envelop" src="envelop.PNG">
+                <h2 id="envelop-text">Get Exclusive Tips & Advice</h2>
+                <a href="../newsLetter/newsLetterSignUp.html"><input type="text" name="" id="newsletter" value="Sign Up"></a>
+                <h2 id="help-text">Need help?<a id="contact" href="../contact/contact.html"> Contact Us</a></h2>
+                <hr>
+                <div class="col-2">
+                    <h3>Homeowners</h3>
+                    <p><a class="is-link" href="">Browse Categories</a></p>
+                    <p><a class="is-link" href="">Browse Tasks</a></p>
+                    <p><a class="is-link" href="">Write A Review</a></p>
+                    <p><a class="is-link" href="">Blog</a></p>
+                    <p><a class="is-link" href="">Star Reviewers</a></p>
+                    <p><a class="is-link" href="">Homeowner FAQ</a></p>
+                    <p><a class="is-link" href="">Review Guidelines</a></p>
+                    <p><a class="is-link" href="">Homeowner Trust</a></p>
+                    <p><a class="is-link" href="">Cost Guides</a></p>
+                    <p><a class="is-link" href="">Reno Report</a></p>
+                </div>
+                <div class="col-2">
+                    <h3>Home Professionals</h3>
+                    <p><a class="is-link" href="">Join Homestars</a></p>
+                    <p><a class="is-link" href="">Brand Builder</a></p>
+                    <p><a class="is-link" href="">Home Professional FAQ</a></p>
+                    <p><a class="is-link" href="">Building Trust</a></p>
+                    <p><a class="is-link" href="">Mobile App</a></p>
+                    <p><a class="is-link" href="">Home Professional Terms</a></p>
+                    <p><a class="is-link" href="">Pro Centre</a></p>
+                </div>
+                <div class="col-2">
+                    <h3>HomeStars</h3>
+                    <p><a class="is-link" href="">About</a></p>
+                    <p><a class="is-link" href="">Our Team</a></p>
+                    <p><a class="is-link" href="">Press & Announcements</a></p>
+                    <p><a class="is-link" href="">Careers at Homestars</a></p>
+                    <p><a class="is-link" href="">Contact Us</a></p>
+                    <p><a class="is-link" href="">Terms of Use</a></p>
+                    <p><a class="is-link" href="">Cities</a></p>
+                    <p><a class="is-link" href="">Privacy</a></p>
+                </div>
+                <div class="col-2">
+                    <img class="social" src="Social.PNG">
+                </div>
+            </div>
+        </div>
+        <div class="popup">
+            <div class="popup-content">
+             <form class="popup-form" name="myform" method="post" action="abc.jsp" onsubmit="return validateform()" > 
+                <img src="cross1.PNG" class="close">
+                <h1>Login to your account</h1>
+                <p class="description-text"><b>Email</b></p>
+                <input type="text" name="name" placeholder="umairahmeds@hotmail.com">
+                <p class="description-text"><b>Password</b></p>
+                <input type="password" name="password" placeholder="Password">
+                <a href="#" class="button"> <input type="submit" value="Login"> </a>
+                <a href="../forgot/forgot.html">Forgot Password?</a>
+                <p>Don't have an account?<a href="../login/signup.html">Sign Up</a></p>
+                </form>
+             </div>
+         </div>
+         <div class="popup2">
+            <div class="popup-content">
+             <form class="popup-form" name="myform1" method="post" action="abc.jsp" onsubmit="return validateform2()" > 
+                <img src="cross1.PNG" class="close2">
+                <h1>Sign Up for an account</h1>
+                <p class="description-text"><b>Display Name</b></p>
+                <input type="text" name="name" placeholder="Display Name">
+                <p class="description-text"><b>Email</b></p>
+                <input type="text" name="email" placeholder="umairahmeds@hotmail.com">
+                <p class="description-text"><b>Create Password</b></p>
+                <input type="password" name="password" placeholder="******">
+                <a href="#" class="button"> <input type="submit" value="Sign Up"> </a>
+                </form>
+            </div>
+         <script>
+            document.getElementById("button").addEventListener("click",function(){
+                document.querySelector(".popup").style.display="flex";
+            
+            })
+            
+            document.querySelector(".close").addEventListener("click",function(){
+                document.querySelector(".popup").style.display="none";
+            })
+            function validateform()
+            {  
+                var name=document.myform.name.value;  
+                var password=document.myform.password.value;  
+          
+                if (name==null || name=="")
+                {  
+                    alert("Name can't be blank");  
+                    return false;  
+                }       
+                else if(password.length<6)
+                {  
+                    alert("Password must be at least 6 characters long.");  
+                return false;  
+                }  
+            } 
+        document.getElementById("button1").addEventListener("click",function(){
+    document.querySelector(".popup2").style.display="flex";
+})
+document.querySelector(".close2").addEventListener("click",function(){
+    document.querySelector(".popup2").style.display="none";
+})
+function validateform2()
+{  
+var name=document.myform2.name.value;  
+var email=document.myform2.email.value;
+var password=document.myform2.password.value;  
+  
+if (name==null || name==""){  
+  alert("Name can't be blank");  
+  return false;  
+}
+else if(email<8)
+{  
+  alert("Password must be at least 6 characters long.");  
+  return false;  
+  }  
+
+else if(password.length<6)
+{  
+  alert("Password must be at least 6 characters long.");  
+  return false;  
+  }  
+}
+        </script>
+        
+</body>
+</html>

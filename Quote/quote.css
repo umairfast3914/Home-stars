@@ -1,0 +1,222 @@
+body 
+{
+    margin:0;
+    font-family: "fira-sans", "San Francisco", "Segoe UI", sans-serif;
+
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #FFFFFF;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 70px;
+  border-bottom: 2px solid gray ;
+  z-index: 1;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #FAF9F5;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+#img
+{
+    width: 100px;
+    height: 50px;
+
+}
+.link
+{
+    color: black;
+    margin-top: 15px;
+}
+.right
+{
+    position:relative;
+    left: 750px;
+}
+#page
+{
+    background-color: #F8F9FA;
+    width: 100%;
+    height: 100%;
+    margin-top: 72px;
+    
+}
+
+#content1
+{
+text-align: center;
+}
+#text
+{
+width: 500px;
+height: 35px;
+
+}
+#send
+{
+width: 510px;
+height: 35px;
+margin-top: 10px;
+background-color: #27A9E1;
+border-color: #27A9E1;
+color: white;
+margin-bottom: 50px;
+}
+#send:hover
+{
+background-color:#1D79A1 ;
+color: white;
+}
+#progress-bar
+{
+background-color: #232F3A;
+width: 100%;
+height: 50px;
+position: fixed;
+top: 72px;
+z-index: 1;
+
+}
+h1
+{
+width: 560px;
+position: relative;
+left: 471px;
+color: #373730;
+}
+.in-image
+{
+display: inline-block;
+width: 100px;
+height: 85px;
+margin-right: 41px;
+margin-left: -33px;
+position: relative;
+top: 10px;
+left: 120px;
+
+}
+#content1 p
+{
+display: inline-block;
+position: relative;
+top: 27px;
+left: -42px;
+}
+#form-1
+{
+background-color: white;
+text-align: center;
+border: 1px solid grey;
+width: 600px;
+height: 268px;
+margin-top: 101px;
+margin-left: 450px;
+}
+#form-2
+{
+background-color: white;
+text-align: center;
+border: 1px solid grey;
+width: 600px;
+height: 350px;
+margin-top: 101px;
+margin-left: 450px;
+}
+
+.button
+{
+background-color: #27A9E1;
+width: 85px;
+height: 40px;
+color: white;
+font-weight: bolder;
+border-radius: 3px;
+border: none;
+cursor: pointer;
+position: relative;
+top: 13px;
+left: 968px;
+}
+.button:hover
+{
+background-color: #1D79A1;
+
+}
+#zip
+{
+width: 133px;
+height: 40px;
+padding-left: 77px;
+}
+#search-task
+{
+width: 500px;
+height: 40px;
+
+}
+#div-1
+{
+margin-bottom: 300px;
+}
+#div-2
+{
+margin-bottom: 300px;
+display: none;
+}
+#div-3
+{
+margin-bottom: 300px;
+display: none;
+}
+#div-4
+{
+margin-bottom: 300px;
+display: none;
+}
+.text-left
+{
+text-align: left;
+position: relative;
+left: 45px;
+}
+#line1
+{
+background-color: #151C23;
+height: 10px;
+width: 608px;
+border-radius: 5px;
+position: absolute;
+top: 19px;
+left: 449px;
+}
+#line2
+{
+background-color: #27A9E1;
+height: 10px;
+width: 152px;
+border-radius: 5px;
+position: absolute;
+top: 19px;
+left: 449px;
+}

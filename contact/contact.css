@@ -1,0 +1,282 @@
+body 
+{
+    margin:0;
+    font-family: "fira-sans", "San Francisco", "Segoe UI", sans-serif;
+
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #FFFFFF;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 70px;
+  border-bottom: 2px solid gray ;
+  z-index: 1;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #FAF9F5;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+#img
+{
+    width: 100px;
+    height: 50px;
+
+}
+.link
+{
+    color: black;
+    margin-top: 15px;
+}
+.right
+{
+    position:relative;
+    left: 750px;
+}
+#page
+{
+    background-color: #F8F9FA;
+    width: 100%;
+    height: 100%;
+    
+}
+#footer
+{
+    clear: both;
+    background-color: #232F3A;
+    width: 100%;
+    height: 600px;
+    color: white;
+    z-index: 1;
+}
+#in-footer
+{
+    width: 85%;
+    margin-left: 100px;
+    margin-right: 100px;
+    
+}
+#envelop
+{
+    width: 51px;
+    height: 48px;
+    margin-top: 40px;
+    float: left;
+}
+#envelop-text
+{
+    padding: 25px;
+    display: inline-block;
+    margin-left: -25px;
+
+}
+#help-text
+{
+    padding: 25px;
+    float: right;
+    text-overflow: ellipsis;
+
+
+}
+.social
+{
+    margin-bottom: 100px;
+}
+.is-link
+{
+    color: white;
+    text-decoration-line: none;
+}
+.is-link:hover
+{
+    text-decoration-line: underline;
+    color: #626667 !important;
+
+}
+#contact
+{
+    text-decoration-line: none;
+    color:#27A9E1 ;
+}
+#contact:hover
+{
+    text-decoration-line: underline;
+    color: #1D79A1;
+}
+.col-2
+{
+    width: 24%;
+    display: inline-block;
+    vertical-align: top;
+
+}
+#pro
+{
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('contact.jpg');
+  width: 100%;
+  height: 404px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: -8px;
+  margin-top: -56px;
+  margin-bottom: 100px;
+ 
+}
+.inner-text
+{
+    color: white;
+    text-align: left;
+    width: 500px;
+    position: relative;
+    left: 266px;
+    top: 94px;
+    margin-bottom: 20px;
+}
+.yellow-button {
+  background-color: #FFD942;
+  border: none;
+  color: black;
+  padding: 20px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 8px;
+  width: 200px;
+  font-weight: bold;
+}
+.side-button
+{
+    cursor: pointer;
+    display: block;
+    background-color: #F8F9FA;
+    border: 1px solid grey;
+    border-radius: 2px;
+    width: 200px;
+    height: 70px;
+    margin-bottom: 10px;
+    position: relative;
+    left: 350px;
+}
+.side-button:active
+{
+    background-color: white;
+}
+.contact-form
+{
+   position: absolute;
+   left: 549px;
+   top: 577px;
+   border: 1px solid grey;
+   border-top-right-radius: 2px ;
+   border-bottom-right-radius: 2px;
+   width: 592px;
+
+}
+.contact-form input[type=text],.contact-form select
+{
+    border: 1px solid grey;
+    background-color: white;
+    height: 30px;
+    padding: 5px;
+    margin: 5px;
+    margin-left: 50px;
+    margin-bottom: 10px;
+   
+}
+.button
+{
+    background-color: #FFD942;
+  border: none;
+  color: black;
+  padding: 20px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 8px;
+  width: 200px;
+  font-weight: bold;
+  margin-left: 48px;
+
+}
+.form-heading
+{
+    text-align: center;
+}
+.full-width
+{
+    width: 400px;
+}
+.half-width
+{
+    width:164px;
+}
+.message
+{
+    height: 100px !important;
+    width: 400px;
+}
+#topic
+{
+    width: 411px;
+}
+#form1
+{
+    display: block;
+}
+#form2
+{
+    display: none;
+}
+#form3
+{
+    display: none;
+}
+#form4
+{
+    display: none;
+}
+#form5
+{
+    display: none;
+}
+#form6
+{
+    display: none;
+}
+#newsletter
+{
+    background-color: #2FBB86;
+    font-weight: bolder;
+    width: 58px;
+    height: 32px;
+    color: white;
+    border-radius: 3px;
+    padding-left: 9px;
+    margin-left: -22px;
+    cursor: pointer;
+}
